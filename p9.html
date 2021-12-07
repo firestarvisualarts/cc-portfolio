@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Madeline Schlesinger| Code 2 Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Madeline Schlesinger</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1</a></li>
+        <li>Project <a href="p2.html">#2</a></li>
+        <li>Project <a href="p3.html">#3</a></li>
+        <li>Project <a href="p4.html">#4</a></li>
+        <li>Project <a href="p5.html">#5</a></li>
+        <li>Project <a href="p6.html">#6</a></li>
+        <li>Project <a href="p7.html">#7</a></li>
+        <li>Project <a href="p8.html">#8</a></li>
+        <li>Project <a href="p9.html">#9</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <h1>
+        Consentful Interface
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+<iframe 
+  width="640px"
+  height="480px"
+  allow="camera"
+  src="https://editor.p5js.org/firestarvisualarts/full/fOLn0aBPg">
+</iframe>
+        
+      </div>
+      
+      <h1>
+        Description
+      </h1>
+
+      <p>
+        Our task was to upgrade our experimental camera to be more consentful.
+        We were to incoporate at least 1 DOM element.
+        
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Design Process
+      </h1>
+
+      <p>
+        The entire point of my experimental camera is that the filter changes color.
+        I had originally coded the color change into function mousePressed, but realized
+        that there wasn't anything that tells the user it can change color.
+        So, I decided to add a button in the bottom left corner of the camera.
+        I moved all the color changing functions into that button. It's supposed to make it very 
+        obvious to the user that they can change color. I also added a reset button to return the
+        camera to it's original state.
+      </p>
+
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+      
+      <p>
+        While there is no real consequence to the user not being aware that my camera can change
+        color, it's good that they have the option to not change it. In my original camera, I could
+        definitely see a user clicking the mouse to do something else, but it accidentally changes
+        the filter color. In that case, the user also has a reset button to return the camera to 
+        it's original colors. By adding these two buttons, my camera follows the FRIES model.
+        </p>
+    </div>
+  </body>
+</html>
